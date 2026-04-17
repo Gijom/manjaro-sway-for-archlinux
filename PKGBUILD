@@ -1,5 +1,5 @@
 # Maintainer: Jonas Strassel <info@jonas-strassel.de>
-
+# TODO: Check sway-contrib package which seems to probide grimshot and a systemd script of sway services (which seem outdated)
 pkgname=manjaro-sway-settings
 pkgver=17.1.0
 pkgrel=11
