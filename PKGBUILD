@@ -10,13 +10,13 @@ license=('GPL')
 pkgdesc='Manjaro Sway Settings'
 groups=('sway-manjaro')
 depends=(
-    'manjaro-base-skel'
+#    'manjaro-base-skel'
     'waybar'            # configurable bar
     'brightnessctl'     # cli to control brightness
     'mako'              # desktop notifications
     'sway'              # window manager
     'rofi-wayland'      # launcher application
-    'sway-services'     # systemd services for sway
+    'sway-services-git'     # systemd services for sway
     'wl-clip-persist'   # persists clipboard content between containers
     'swayidle'          # idle management daemon
     'grim'              # screenshot tool
@@ -33,13 +33,13 @@ depends=(
     'noto-fonts-emoji'  # emoji font (e.g. weather icons)
     'btop'              # system monitor
     'swappy'            # screenshot editing tool
-    'grimshot'          # screenshot tool
+#    'grimshot'          # screenshot tool
     'inotify-tools'     # file watchers etc
     'bluetuith'         # bluetooth management tool
     'swayr'             # lru window switcher for sway
     'bc'                # basic tiny calculation util
     'xdg-terminal-exec' # upcoming execute in terminal xdg standard
-    'idlehack'          # inhibit swayidle on dbus messages that request screensaver inhibit
+    'idlehack-git'          # inhibit swayidle on dbus messages that request screensaver inhibit
     'dex'               # executes desktop entries on autostart
     'swaybg'            # wallpaper setter
     'rofimoji'          # emoji picker
@@ -48,10 +48,10 @@ depends=(
     'kvantum-qt5'             # theme engine for qt (qt 5 support)
     'ttf-jetbrains-mono-nerd' # default monospace font
     'ttf-roboto'              # default font
-    'papirus-maia-icon-theme' # default icon theme
+    'papirus-maia-icon-theme-git' # default icon theme
     'phinger-cursors'         # default cursor theme
     'matcha-gtk-theme'        # default gtk (gnome etc.) theme
-    'kvantum-theme-matcha'    # default kvantum (kde etc.) theme
+    'kvantum-theme-matcha-git'    # default kvantum (kde etc.) theme
 )
 makedepends=('git')
 optdepends=(
