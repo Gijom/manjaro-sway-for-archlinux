@@ -5,7 +5,7 @@ pkgver=17.1.0
 pkgrel=11
 arch=('any')
 _pkgbase=desktop-settings
-#url="https://github.com/Manjaro-Sway/$_pkgbase"
+url="https://github.com/Manjaro-Sway/$_pkgbase"
 license=('GPL')
 pkgdesc='Manjaro Sway Settings'
 groups=('sway-manjaro')
@@ -16,7 +16,7 @@ depends=(
     'mako'              # desktop notifications
     'sway'              # window manager
     'rofi-wayland'      # launcher application
-    'sway-services-git'     # systemd services for sway
+#    'sway-services-git'     # systemd services for sway
     'wl-clip-persist'   # persists clipboard content between containers
     'swayidle'          # idle management daemon
     'grim'              # screenshot tool
