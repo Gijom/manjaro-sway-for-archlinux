@@ -16,9 +16,9 @@ The goal is not du duplicate all packages in the AUR but rather to make it more 
 - [x] replaced `idlehack` with AUR `idlehack-git`
 - [x] replaced `papirus-maia-icon-theme` with AUR `papirus-maia-icon-theme-git`
 - [x] replaced `kvantum-theme-matcha` with AUR `kvantum-theme-matcha-git` (:warning: not the same at all, many missing themes)
-- [] investigate the use of the `sway-contrib` package which seems to provide `grimshot` but enters in conflict with `sway-services-git`
-- [] investigate if it is possible to replace all sway services with other packages
-- [] investigate if the AUR `kvantum-theme-matcha-git` package could be used instead of `kvantum-theme-matcha-git` (with replacements of theme configs in `skel` and `/usr/share/sway/themes`)
+- [ ] investigate the use of the `sway-contrib` package which seems to provide `grimshot` but enters in conflict with `sway-services-git`
+- [ ] investigate if it is possible to replace all sway services with other packages
+- [ ] investigate if the AUR `kvantum-theme-matcha-git` package could be used instead of `kvantum-theme-matcha-git` (with replacements of theme configs in `skel` and `/usr/share/sway/themes`)
 
 ## Installation
 
