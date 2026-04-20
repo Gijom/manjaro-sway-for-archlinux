@@ -19,6 +19,7 @@ The goal is not du duplicate all packages in the AUR but rather to make it more 
 - [ ] investigate the use of the `sway-contrib` package which seems to provide `grimshot` but enters in conflict with `sway-services-git`
 - [ ] investigate if it is possible to replace all sway services with other packages
 - [ ] investigate if the AUR `kvantum-theme-matcha-git` package could be used instead of `kvantum-theme-matcha-git` (with replacements of theme configs in `skel` and `/usr/share/sway/themes`)
+- [ ] investigate why I get errors because of the --server=3 option (--server alone seem to work)
 
 ## Installation
 
