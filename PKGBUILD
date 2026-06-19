@@ -39,7 +39,7 @@ depends=(
     'swayr'             # lru window switcher for sway
     'bc'                # basic tiny calculation util
     'xdg-terminal-exec' # upcoming execute in terminal xdg standard
-    'idlehack-git'          # inhibit swayidle on dbus messages that request screensaver inhibit
+#    'idlehack-git'          # commented out 2026-06-19: outdated local AUR git package (0.r19-1 -> latest-commit); review PKGBUILD before re-enabling
     'dex'               # executes desktop entries on autostart
     'swaybg'            # wallpaper setter
     'rofimoji'          # emoji picker
@@ -48,15 +48,15 @@ depends=(
     'kvantum-qt5'             # theme engine for qt (qt 5 support)
     'ttf-jetbrains-mono-nerd' # default monospace font
     'ttf-roboto'              # default font
-    'papirus-maia-icon-theme-git' # default icon theme
+#    'papirus-maia-icon-theme-git' # commented out 2026-06-19: package name appears in public June 2026 AUR compromise lists; review PKGBUILD/source before re-enabling
     'phinger-cursors'         # default cursor theme
-    'matcha-gtk-theme'        # default gtk (gnome etc.) theme
+#    'matcha-gtk-theme'        # commented out 2026-06-19: outdated local AUR package (2023.10.30-2 -> 2025.04.11-3); review PKGBUILD before re-enabling
     'kvantum-theme-matcha-git'    # default kvantum (kde etc.) theme
 )
 makedepends=('git')
 optdepends=(
     'qutebrowser: a keyboard-centric browser'
-    'flashfocus: better flashing on focus changes'
+#    'flashfocus: better flashing on focus changes' # commented out 2026-06-19: package name appears in public June 2026 AUR compromise lists; review PKGBUILD/source before re-enabling
     'waylock: reference lockscreen for ext-session-lock-v1'
     'gtklock: lockscreen based on gtkgreet'
     'swaylock: minimalistic lockscreen'
